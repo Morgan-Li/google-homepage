@@ -1,0 +1,87 @@
+html {
+    background-color: #fff;
+    color: #000;
+    font-family: arial, sans-serif;
+}
+
+header {
+    display:flex;
+    padding: 5px;
+    font-size: 14px;
+}
+
+header .about-btn{
+    margin: 15px;
+    border: 0;
+    background: transparent;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+}
+
+header .store-btn{
+    margin: 15px 5px;
+    border: 0;
+    background: transparent;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+}
+
+header .about-btn:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+header .store-btn:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+header .right-btns {
+    margin-left:auto;
+}
+
+header .gmail-btn{
+    margin: 15px;
+    border: 0;
+    background: transparent;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+}
+
+header .images-btn{
+    margin: 15px 0px;
+    border: 0;
+    background: transparent;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+}
+
+header .apps-btn{
+    margin: 15px;
+    border: 0;
+    background: transparent;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+}
+
+header .profile-btn{
+    margin: 15px 5px;
+    border: 0;
+    background: transparent;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+}
+
+header .gmail-btn:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+header .images-btn:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+footer {
+
+}
