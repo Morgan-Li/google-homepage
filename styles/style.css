@@ -1,6 +1,6 @@
 html {
     background-color: #fff;
-    color: #000;
+    color: #222;
     font-family: arial, sans-serif;
 }
 
@@ -10,8 +10,44 @@ header {
     font-size: 14px;
 }
 
+#app-icon {
+    margin: 16px 15px 0px 15px;
+    position:relative;
+}
+
+.container {
+    position:relative;
+}
+
+.highlight-app {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: #bbb;
+    border-radius: 50%;
+    bottom: 9px;
+    right: 8px;
+    opacity: 0;
+}
+
+.highlight-app:hover {
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+#git-icon {
+    margin: 6px 10px 0px 5px;
+    border-radius: 50%;
+    border: 5px solid rgba(0,0,0,0.0);
+}
+
+#git-icon:hover {
+    border: 5px solid rgba(0,0,0,0.15);
+    cursor: pointer;
+}
+
 header .about-btn{
-    margin: 15px;
+    margin: 15px 10px 5px 5px;
     border: 0;
     background: transparent;
     font-size: 14px;
@@ -19,7 +55,7 @@ header .about-btn{
 }
 
 header .store-btn{
-    margin: 15px 5px;
+    margin: 15px 0px;
     border: 0;
     background: transparent;
     font-size: 14px;
@@ -50,22 +86,6 @@ header .gmail-btn{
 
 header .images-btn{
     margin: 15px 0px;
-    border: 0;
-    background: transparent;
-    font-size: 14px;
-    font-family: arial, sans-serif;
-}
-
-header .apps-btn{
-    margin: 15px;
-    border: 0;
-    background: transparent;
-    font-size: 14px;
-    font-family: arial, sans-serif;
-}
-
-header .profile-btn{
-    margin: 15px 5px;
     border: 0;
     background: transparent;
     font-size: 14px;
