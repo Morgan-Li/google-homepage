@@ -1,13 +1,14 @@
 html {
     background-color: #fff;
-    color: #222;
+    color: #3c4043;
     font-family: arial, sans-serif;
 }
 
 header {
     display:flex;
     padding: 5px;
-    font-size: 14px;
+    color: #3c4043;
+    font-size: 13px;
 }
 
 #app-icon {
@@ -31,6 +32,71 @@ header {
 
 #search-bar:hover {
     box-shadow: 0 0 5px 2px rgb(161, 157, 157);
+}
+
+#microphone-pic {
+    position: absolute;
+    top: 345px;
+    left: 1210px;
+}
+
+#search-pic {
+    position: absolute;
+    top: 346px;
+    left: 685px;
+}
+
+.search-bar-pics:hover {
+    cursor: pointer;
+}
+
+input {
+    position: absolute;
+    top: 343px;
+    left: 715px;
+    width: 475px;
+    height: 25px;
+    border-color: transparent;
+    outline: none;
+}
+
+.searchbar-btns {
+    margin: 30px 810px;
+}
+
+.search-btn {
+    width: 110px;
+    height: 40px;
+    margin-right: 10px;
+    text-align: center;
+    color: #3c4043;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    border-color: transparent;
+    border-radius: 4px;
+    background-color: #f8f9fa;
+}
+
+.lucky-btn {
+    width: 135px;
+    height: 40px;
+    text-align: center;
+    color: #3c4043;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    border-color: transparent;
+    border-radius: 4px;
+    background-color: #f8f9fa;
+}
+
+.search-btn:hover {
+    box-shadow: 0 0 1px 1px rgb(161, 157, 157);
+    cursor: pointer;
+}
+
+.lucky-btn:hover {
+    box-shadow: 0 0 1px 1px rgb(161, 157, 157);
+    cursor: pointer;
 }
 
 .container {
@@ -68,7 +134,8 @@ header .about-btn{
     margin: 15px 10px 5px 5px;
     border: 0;
     background: transparent;
-    font-size: 14px;
+    color: #3c4043;
+    font-size: 13px;
     font-family: arial, sans-serif;
 }
 
@@ -76,7 +143,8 @@ header .store-btn{
     margin: 15px 0px;
     border: 0;
     background: transparent;
-    font-size: 14px;
+    color: #3c4043;
+    font-size: 13px;
     font-family: arial, sans-serif;
 }
 
@@ -98,7 +166,8 @@ header .gmail-btn{
     margin: 15px 5px 5px 5px;
     border: 0;
     background: transparent;
-    font-size: 14px;
+    color: #3c4043;
+    font-size: 13px;
     font-family: arial, sans-serif;
 }
 
@@ -106,7 +175,8 @@ header .images-btn{
     margin: 15px 5px 5px 5px;
     border: 0;
     background: transparent;
-    font-size: 14px;
+    color: #3c4043;
+    font-size: 13px;
     font-family: arial, sans-serif;
 }
 
