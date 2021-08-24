@@ -64,10 +64,7 @@ input {
     margin: 30px 810px;
 }
 
-.search-btn {
-    width: 110px;
-    height: 40px;
-    margin-right: 10px;
+.searchbar-btns button{
     text-align: center;
     color: #3c4043;
     font-family: arial, sans-serif;
@@ -77,16 +74,14 @@ input {
     background-color: #f8f9fa;
 }
 
+.search-btn {
+    width: 115px;
+    height: 36px;
+}
+
 .lucky-btn {
     width: 135px;
-    height: 40px;
-    text-align: center;
-    color: #3c4043;
-    font-family: arial, sans-serif;
-    font-size: 14px;
-    border-color: transparent;
-    border-radius: 4px;
-    background-color: #f8f9fa;
+    height: 36px;
 }
 
 .search-btn:hover {
@@ -130,8 +125,7 @@ input {
     cursor: pointer;
 }
 
-header .about-btn{
-    margin: 15px 10px 5px 5px;
+.left-btns button{
     border: 0;
     background: transparent;
     color: #3c4043;
@@ -139,13 +133,12 @@ header .about-btn{
     font-family: arial, sans-serif;
 }
 
+header .about-btn{
+    margin: 15px 10px 5px 5px;
+}
+
 header .store-btn{
     margin: 15px 0px;
-    border: 0;
-    background: transparent;
-    color: #3c4043;
-    font-size: 13px;
-    font-family: arial, sans-serif;
 }
 
 header .about-btn:hover{
@@ -162,8 +155,8 @@ header .right-btns {
     margin-left:auto;
 }
 
-header .gmail-btn{
-    margin: 15px 5px 5px 5px;
+
+.right-btns button {
     border: 0;
     background: transparent;
     color: #3c4043;
@@ -171,13 +164,12 @@ header .gmail-btn{
     font-family: arial, sans-serif;
 }
 
+header .gmail-btn{
+    margin: 15px 5px 5px 5px;
+}
+
 header .images-btn{
     margin: 15px 5px 5px 5px;
-    border: 0;
-    background: transparent;
-    color: #3c4043;
-    font-size: 13px;
-    font-family: arial, sans-serif;
 }
 
 header .gmail-btn:hover{
@@ -191,5 +183,45 @@ header .images-btn:hover{
 }
 
 footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 46px;
+    background-color: #f2f2f2;
+}
 
+.left-footer button{
+    border: 0;
+    background: transparent;
+    color: #70757a;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+}
+
+.right-footer button{
+    border: 0;
+    background: transparent;
+    color: #70757a;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+}
+
+footer {
+    display:flex;
+    flex-direction: row;
+}
+
+.left-footer {
+    display: flex;
+    margin: 15px 15px 15px 35px;
+}
+
+.right-footer {
+    display: flex;
+    margin: 15px 15px 15px auto;
+}
+
+button + button {
+    margin-left: 15px;
 }
