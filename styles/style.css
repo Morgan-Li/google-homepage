@@ -104,7 +104,7 @@ input {
     height: 30px;
     background-color: #bbb;
     border-radius: 50%;
-    bottom: 11px;
+    bottom: 14px;
     right: 8px;
     opacity: 0;
 }
@@ -209,6 +209,8 @@ footer {
     font-family: arial, sans-serif;
 }
 
+
+
 .left-footer {
     display: flex;
     margin: 15px 15px 15px 35px;
@@ -217,6 +219,36 @@ footer {
 .right-footer {
     display: flex;
     margin: 15px 15px 15px auto;
+}
+
+.advertising-btn:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.business-btn:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.searchworks-btn:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.privacy-btn:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.terms-btn:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.settings-btn:hover{
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 button + button {
