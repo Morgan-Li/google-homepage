@@ -114,13 +114,13 @@ input {
     cursor: pointer;
 }
 
-#git-icon {
+#profile {
     margin: 6px 10px 10px 10px;
     border-radius: 50%;
     border: 5px solid rgba(0,0,0,0.0);
 }
 
-#git-icon:hover {
+#profile:hover {
     border: 5px solid rgba(0,0,0,0.15);
     cursor: pointer;
 }
